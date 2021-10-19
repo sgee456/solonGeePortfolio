@@ -234,14 +234,16 @@ body {
   background-color: #f7f5f2;
   color: #1c2528;
   font-family: "Sorts Mill Goudy", serif;
+  padding-top: 46px;
 }
 
 .wrapper {
-  max-width: 1170px;
+  max-width: 78.8%;
   margin: 0 auto;
 }
 
 h2 {
+  margin: 0;
   font-size: 15rem;
 }
 
@@ -258,13 +260,57 @@ a {
   color: #ff7f59;
 }
 
+nav {
+  height: 24px;
+}
+
+header {
+  margin-top: 220px;
+}
 header h1 {
+  margin: 1.6rem 0 0 0;
   font-size: 12.6rem;
   text-transform: uppercase;
+  line-height: 11rem;
 }
 header h2 {
   font-family: "Rubik", sans-serif;
   font-size: 4rem;
   font-weight: 300;
   text-transform: uppercase;
+  line-height: 5.2rem;
+  margin-left: 2px;
+}
+header .item2 {
+  position: relative;
+  width: 946px;
+  height: 516px;
+}
+header .circle {
+  position: absolute;
+}
+header .circle1 {
+  right: 124px;
+  top: 94px;
+  z-index: 50;
+}
+header .circle2 {
+  right: 86px;
+  top: 0;
+  z-index: 40;
+}
+header .circle3 {
+  left: 0;
+  top: 298px;
+  z-index: 30;
+}
+header .circle4 {
+  right: 77px;
+  bottom: 0;
+  z-index: 20;
+}
+header .circle5 {
+  right: 0;
+  top: 298px;
+  z-index: 10;
 }

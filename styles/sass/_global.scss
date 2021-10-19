@@ -17,15 +17,17 @@ body {
     background-color: $lightBackground;
     color: $black;
     font-family: 'Sorts Mill Goudy', serif;
+    padding-top: 46px;
 }
 
 //Other
 .wrapper {
-    max-width: 1170px;
+    max-width: 78.8%;
     margin: 0 auto;
 }
 
 h2 {
+    margin: 0;
     font-size: 15rem;
 }
 

@@ -1,7 +1,15 @@
+nav {
+    height: 24px;
+}
+
 header {
+    margin-top: 220px;
+
     h1 {
+        margin: 1.6rem 0 0 0;
         font-size: 12.6rem;
         text-transform: uppercase;
+        line-height: 11rem;
     }
 
     h2 {
@@ -9,5 +17,47 @@ header {
         font-size: 4rem;
         font-weight: 300;
         text-transform: uppercase;
+        line-height: 5.2rem;
+        margin-left: 2px;
+    }
+
+    .item2 {
+        position: relative;
+        width: 946px;
+        height: 516px;
+    }
+
+    .circle {
+        position: absolute;
+    }
+
+    .circle1 {
+        right: 124px;
+        top: 94px;
+        z-index: 50;
+    }
+
+    .circle2 {
+        right: 86px;
+        top: 0;
+        z-index: 40;
+    }
+
+    .circle3 {
+        left: 0;
+        top: 298px;
+        z-index: 30;
+    }
+
+    .circle4 {
+        right: 77px;
+        bottom: 0;
+        z-index: 20;
+    }
+
+    .circle5 {
+        right: 0;
+        top: 298px;
+        z-index: 10;
     }
 }
