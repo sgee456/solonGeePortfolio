@@ -26,6 +26,10 @@ body {
     margin: 0 auto;
 }
 
+.lineBreak {
+    display: block;
+}
+
 h2 {
     margin: 0;
     font-size: 15rem;
@@ -37,6 +41,7 @@ h3 {
 
 p, a {
     font-size: 2.5rem;
+    line-height: 3.5rem;
 }
 
 a {

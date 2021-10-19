@@ -242,6 +242,10 @@ body {
   margin: 0 auto;
 }
 
+.lineBreak {
+  display: block;
+}
+
 h2 {
   margin: 0;
   font-size: 15rem;
@@ -253,6 +257,7 @@ h3 {
 
 p, a {
   font-size: 2.5rem;
+  line-height: 3.5rem;
 }
 
 a {
@@ -266,6 +271,16 @@ nav {
 
 header {
   margin-top: 220px;
+}
+header .flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 header h1 {
   margin: 1.6rem 0 0 0;
@@ -281,10 +296,15 @@ header h2 {
   line-height: 5.2rem;
   margin-left: 2px;
 }
-header .item2 {
+header .item1 {
   position: relative;
+  left: 262px;
+  top: -121px;
   width: 946px;
   height: 516px;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
 }
 header .circle {
   position: absolute;
@@ -313,4 +333,16 @@ header .circle5 {
   right: 0;
   top: 298px;
   z-index: 10;
+}
+header .item2 {
+  width: 50%;
+}
+header .item3 {
+  position: relative;
+  top: 95px;
+  width: 20.7%;
+}
+
+.aboutMe {
+  background: #ebe7e0;
 }

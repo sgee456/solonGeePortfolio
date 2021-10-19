@@ -5,6 +5,12 @@ nav {
 header {
     margin-top: 220px;
 
+    .flexContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
     h1 {
         margin: 1.6rem 0 0 0;
         font-size: 12.6rem;
@@ -21,10 +27,13 @@ header {
         margin-left: 2px;
     }
 
-    .item2 {
+    .item1 {
         position: relative;
+        left: 262px;
+        top: -121px;
         width: 946px;
         height: 516px;
+        order: 1;
     }
 
     .circle {
@@ -60,4 +69,18 @@ header {
         top: 298px;
         z-index: 10;
     }
+
+    .item2 {
+        width: 50%;
+    }
+
+    .item3 {
+        position: relative;
+        top: 95px;
+        width: 20.7%;
+    }
+}
+
+.aboutMe {
+    background: $darkBackground;
 }
