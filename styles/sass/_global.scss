@@ -3,6 +3,7 @@ $lightBackground: rgb(247, 245, 242);
 $darkBackground: rgb(235, 231, 224);
 
 $black: rgb(28, 37, 40);
+$orange: #ff7f59;
 
 //typography
 
@@ -22,4 +23,21 @@ body {
 .wrapper {
     max-width: 1170px;
     margin: 0 auto;
+}
+
+h2 {
+    font-size: 15rem;
+}
+
+h3 {
+    font-size: 12rem;
+}
+
+p, a {
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: $orange;
 }

@@ -241,10 +241,30 @@ body {
   margin: 0 auto;
 }
 
-h1 {
-  font-size: 12.6rem;
-}
-
 h2 {
   font-size: 15rem;
+}
+
+h3 {
+  font-size: 12rem;
+}
+
+p, a {
+  font-size: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ff7f59;
+}
+
+header h1 {
+  font-size: 12.6rem;
+  text-transform: uppercase;
+}
+header h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: uppercase;
 }
