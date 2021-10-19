@@ -343,6 +343,11 @@ header .item3 {
   width: 20.7%;
 }
 
+main {
+  margin-top: -403px;
+}
+
 .aboutMe {
   background: #ebe7e0;
+  padding-top: 579px;
 }
