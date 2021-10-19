@@ -226,6 +226,25 @@ html {
   overflow: hidden;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f7f5f2;
+  color: #1c2528;
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 h1 {
-  background-color: papayawhip;
+  font-size: 12.6rem;
+}
+
+h2 {
+  font-size: 15rem;
 }

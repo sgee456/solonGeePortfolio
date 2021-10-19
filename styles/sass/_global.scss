@@ -1,0 +1,25 @@
+//color
+$lightBackground: rgb(247, 245, 242);
+$darkBackground: rgb(235, 231, 224);
+
+$black: rgb(28, 37, 40);
+
+//typography
+
+// font-family: 'Rubik', sans-serif;
+// font-family: 'Sorts Mill Goudy', serif;
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $lightBackground;
+    color: $black;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+//Other
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
