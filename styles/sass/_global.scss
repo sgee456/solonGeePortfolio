@@ -25,19 +25,29 @@ body {
     max-width: 78.8%;
     margin: 0 auto;
 }
+.innerWrapper {
+    max-width: 60.9%;
+    margin: 0 auto;
+}
 
 .lineBreak {
     display: block;
 }
 
+section:nth-child(2n -1) {
+    background: $darkBackground;
+}
+
 h2 {
-    margin:0 0 0 11.2%;
+    margin: 0;
     font-size: 15rem;
     line-height: 15rem;
 }
 
 h3 {
+    margin:0 0 39px 0;
     font-size: 12rem;
+    line-height: 13rem;
 }
 
 p, a {
@@ -47,6 +57,9 @@ p, a {
 }
 
 a {
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
     text-decoration: none;
     color: $orange;
+    text-align: center;
 }

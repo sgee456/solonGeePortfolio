@@ -242,18 +242,29 @@ body {
   margin: 0 auto;
 }
 
+.innerWrapper {
+  max-width: 60.9%;
+  margin: 0 auto;
+}
+
 .lineBreak {
   display: block;
 }
 
+section:nth-child(2n-1) {
+  background: #ebe7e0;
+}
+
 h2 {
-  margin: 0 0 0 11.2%;
+  margin: 0;
   font-size: 15rem;
   line-height: 15rem;
 }
 
 h3 {
+  margin: 0 0 39px 0;
   font-size: 12rem;
+  line-height: 13rem;
 }
 
 p, a {
@@ -263,8 +274,11 @@ p, a {
 }
 
 a {
+  font-size: 2rem;
+  font-family: "Rubik", sans-serif;
   text-decoration: none;
   color: #ff7f59;
+  text-align: center;
 }
 
 nav {
@@ -350,7 +364,6 @@ main {
 }
 
 .aboutMe {
-  background: #ebe7e0;
   padding-top: 579px;
 }
 .aboutMe p {
@@ -387,5 +400,47 @@ main {
 
 .projects h2 {
   line-height: 13rem;
-  margin: -66px 0 0 11.2%;
+  position: relative;
+  top: -66px;
+  margin-bottom: 52px;
+}
+.projects .projectDescription {
+  margin-left: 34.3%;
+  margin-bottom: 154px;
+}
+.projects article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 227px;
+}
+.projects .imageContainer {
+  max-width: 57.3%;
+}
+.projects img {
+  width: 100%;
+}
+.projects .textContainer {
+  padding-left: 11.1%;
+  max-width: 42.7%;
+}
+.projects .textContainer p {
+  margin-bottom: 49px;
+}
+.projects .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.projects .links a {
+  width: 50%;
+}
+
+.contact h2 {
+  position: relative;
+  top: -66px;
+}
+
+footer p {
+  text-align: center;
 }
