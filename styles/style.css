@@ -247,8 +247,9 @@ body {
 }
 
 h2 {
-  margin: 0;
+  margin: 0 0 0 11.2%;
   font-size: 15rem;
+  line-height: 15rem;
 }
 
 h3 {
@@ -256,6 +257,7 @@ h3 {
 }
 
 p, a {
+  margin: 0;
   font-size: 2.5rem;
   line-height: 3.5rem;
 }
@@ -350,4 +352,40 @@ main {
 .aboutMe {
   background: #ebe7e0;
   padding-top: 579px;
+}
+.aboutMe p {
+  padding: 77px 0 77px 65px;
+  border-left: 1px solid #1c2528;
+}
+.aboutMe .shapeContainer {
+  margin-top: -100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.aboutMe .overflowContainer {
+  overflow: hidden;
+}
+.aboutMe .overflow1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  left: -51px;
+  bottom: -72px;
+}
+.aboutMe .shape2 {
+  position: relative;
+  right: -48px;
+}
+
+.projects h2 {
+  line-height: 13rem;
+  margin: -66px 0 0 11.2%;
 }

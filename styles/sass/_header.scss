@@ -88,4 +88,34 @@ main {
 .aboutMe {
     background: $darkBackground;
     padding-top: 579px;
+    p {
+        padding:77px 0 77px 65px;
+        border-left: 1px solid $black;
+    }
+    .shapeContainer {
+        margin-top: -100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .overflowContainer {
+        overflow: hidden;
+    }
+    .overflow1 {
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        left: -51px;
+        bottom: -72px;
+    }
+    .shape2 {
+        position: relative;
+        right: -48px;
+    }
+}
+
+.projects {
+    h2 {
+        line-height: 13rem;
+        margin: -66px 0 0 11.2%;
+    }
 }
