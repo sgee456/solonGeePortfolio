@@ -42,7 +42,6 @@ header {
     .authorContainer {
         position: absolute;
         border-radius: 0 0 374.515px 374.515px;
-        // border: 1px solid red;
         width: 79.18%;
         bottom: 0;
         right: 8.14%;
@@ -129,7 +128,6 @@ main {
         bottom: -72px;
     }
     .shape1 {
-        width: 100%;
         position: relative;
         left: -21.61%;
     }
@@ -137,7 +135,6 @@ main {
         width: calc(249px + 162 * ((100vw - 750px) / 1170));
     }
     .shape2 {
-        width: 100%;
         position: relative;
         right: -48px;
     }
@@ -156,14 +153,10 @@ main {
     }
     article {
         display: flex;
-        // align-items: center;
         margin-bottom: 227px;
     }
     .imageContainer {
         max-width: 57.3%;
-    }
-    img {
-        width: 100%;
     }
     .textContainer {
         padding-left: 11.1%;
@@ -176,6 +169,13 @@ main {
         display: flex;
         a {
             width: 50%;
+            border-radius: 7px;
+            padding: 16px 0;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        a:hover {
+            color: $lightBackground;
+            background-color: $orange;
         }
     }
     .overflow1 {
@@ -189,7 +189,7 @@ main {
 }
 
 .contact {
-    
+    padding-bottom: 108px;
     h2 {
         margin-left: -5px;
         position: relative;
@@ -199,8 +199,11 @@ main {
     i {
         font-size: 10rem;
         margin-right: 40px;
+        transition: color 0.3s;
     }
-    padding-bottom: 108px;
+    i:hover {
+        color: darken($orange, 10%);
+    }
 }
 
 footer {
