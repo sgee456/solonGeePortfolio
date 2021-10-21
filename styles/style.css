@@ -247,6 +247,10 @@ body {
   margin: 0 auto;
 }
 
+.overflowContainer {
+  overflow: hidden;
+}
+
 .lineBreak {
   display: block;
 }
@@ -322,6 +326,20 @@ header .item1 {
       -ms-flex-order: 1;
           order: 1;
 }
+header .authorContainer {
+  position: absolute;
+  border-radius: 0 0 374.515px 374.515px;
+  width: 79.18%;
+  bottom: 0;
+  right: 8.14%;
+  z-index: 60;
+}
+header .authorImage {
+  position: relative;
+  top: 50px;
+  left: 12.5%;
+  width: 75%;
+}
 header .circle {
   position: absolute;
 }
@@ -383,9 +401,6 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-.aboutMe .overflowContainer {
-  overflow: hidden;
 }
 .aboutMe .overflow1 {
   display: -webkit-box;
