@@ -326,28 +326,33 @@ header .circle {
   position: absolute;
 }
 header .circle1 {
-  right: 124px;
-  top: 94px;
+  width: 24.52%;
+  right: 13.11%;
+  top: 18.22%;
   z-index: 50;
 }
 header .circle2 {
-  right: 86px;
+  width: 12.79%;
+  right: 9.1%;
   top: 0;
   z-index: 40;
 }
 header .circle3 {
+  width: 43.97%;
   left: 0;
-  top: 298px;
+  top: 57.75%;
   z-index: 30;
 }
 header .circle4 {
-  right: 77px;
+  width: 79.18%;
+  right: 8.14%;
   bottom: 0;
   z-index: 20;
 }
 header .circle5 {
+  width: 43.97%;
   right: 0;
-  top: 298px;
+  top: 57.75%;
   z-index: 10;
 }
 header .item2 {
@@ -436,11 +441,19 @@ main {
   width: 50%;
 }
 
+.contact {
+  padding-bottom: 108px;
+}
 .contact h2 {
   position: relative;
   top: -66px;
 }
+.contact i {
+  font-size: 10rem;
+  margin-left: 40px;
+}
 
 footer p {
   text-align: center;
+  margin: 56px 0;
 }
