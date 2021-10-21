@@ -293,6 +293,9 @@ a {
 nav {
   height: 24px;
 }
+nav i {
+  font-size: 5rem;
+}
 
 header {
   margin-top: 220px;
@@ -325,8 +328,8 @@ header .item1 {
   position: relative;
   left: 17.3%;
   top: -121px;
-  width: 62.45%;
-  height: 516px;
+  width: calc(660px + 286 * ((100vw - 750px) / 1170));
+  height: calc(360px + 156 * ((100vw - 750px) / 1170));
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
@@ -414,11 +417,20 @@ main {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  width: calc(143px + 93 * ((100vw - 750px) / 1170));
   position: relative;
-  left: -51px;
   bottom: -72px;
 }
+.aboutMe .shape1 {
+  width: 100%;
+  position: relative;
+  left: -21.61%;
+}
+.aboutMe .overflow2 {
+  width: calc(249px + 162 * ((100vw - 750px) / 1170));
+}
 .aboutMe .shape2 {
+  width: 100%;
   position: relative;
   right: -48px;
 }
@@ -497,6 +509,9 @@ footer p {
     font-size: 12rem;
   }
 
+  header {
+    margin-top: 301px;
+  }
   header .item1 {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
@@ -504,13 +519,29 @@ footer p {
     width: 660px;
     height: 360px;
     left: 0;
+    top: 0;
   }
   header .item2, header .item3 {
     width: 100%;
   }
+  header .item3 {
+    top: 59px;
+    margin-left: 30.3%;
+    margin-right: 22.12%;
+  }
+  header h2 {
+    margin-top: 62px;
+  }
 
+  main {
+    margin-top: -565px;
+  }
+
+  .aboutMe {
+    padding-top: 700px;
+  }
   .aboutMe .overflow1 {
-    visibility: hidden;
+    bottom: -56px;
   }
 
   .projects article {

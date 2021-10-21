@@ -1,5 +1,8 @@
 nav {
     height: 24px;
+    i {
+        font-size: 5rem;
+    }
 }
 
 header {
@@ -31,8 +34,8 @@ header {
         position: relative;
         left: 17.3%;
         top: -121px;
-        width: 62.45%;
-        height: 516px;
+        width: calc(660px + 286 * ((100vw - 750px) / 1170));
+        height: calc(360px + 156 * ((100vw - 750px) / 1170));
         order: 1;
     }
 
@@ -121,11 +124,20 @@ main {
     .overflow1 {
         display: flex;
         align-items: flex-end;
+        width: calc(143px + 93 * ((100vw - 750px) / 1170));
         position: relative;
-        left: -51px;
         bottom: -72px;
     }
+    .shape1 {
+        width: 100%;
+        position: relative;
+        left: -21.61%;
+    }
+    .overflow2 {
+        width: calc(249px + 162 * ((100vw - 750px) / 1170));
+    }
     .shape2 {
+        width: 100%;
         position: relative;
         right: -48px;
     }

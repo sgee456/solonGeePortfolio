@@ -12,21 +12,38 @@
 
     //mainStyling
     header {
+        margin-top: 301px;
         .item1 {
             order: 0;
             width: 660px;
             height: 360px;
             left: 0;
+            top: 0;
         }
 
         .item2, .item3 {
             width: 100%;
         }
+
+        .item3 {
+            top: 59px;
+            margin-left: 30.3%;
+            margin-right: 22.12%;
+        }
+
+        h2 {
+            margin-top: 62px;
+        }
+    }
+
+    main {
+        margin-top: -565px;
     }
 
     .aboutMe {
+        padding-top: 700px;
         .overflow1 {
-            visibility: hidden;
+            bottom: -56px;
         }
     }
 
