@@ -22,7 +22,8 @@ body {
 
 //Other
 .wrapper {
-    max-width: 78.8%;
+    width: 78.9%;
+    max-width: 1515px;
     margin: 0 auto;
 }
 .innerWrapper {
@@ -40,6 +41,10 @@ body {
 
 section:nth-child(2n -1) {
     background: $darkBackground;
+}
+
+img {
+    display: block;
 }
 
 h2 {

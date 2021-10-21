@@ -29,9 +29,9 @@ header {
 
     .item1 {
         position: relative;
-        left: 262px;
+        left: 17.3%;
         top: -121px;
-        width: 946px;
+        width: 62.45%;
         height: 516px;
         order: 1;
     }
@@ -166,17 +166,27 @@ main {
             width: 50%;
         }
     }
+    .overflow1 {
+        width: 16.15%;
+    }
+
+    .shape1 {
+        position: relative;
+        left: -40px;
+    }
 }
 
 .contact {
+    
     h2 {
+        margin-left: -5px;
         position: relative;
         top: -66px;
     }
 
     i {
         font-size: 10rem;
-        margin-left: 40px;
+        margin-right: 40px;
     }
     padding-bottom: 108px;
 }

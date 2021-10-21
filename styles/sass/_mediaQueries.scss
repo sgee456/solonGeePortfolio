@@ -1,0 +1,53 @@
+@media (max-width: 750px) {
+    //global
+    .wrapper, .innerWrapper {
+        width: 88%;
+        max-width: none;
+        margin: 0 auto;
+    }
+
+    h1, h2 {
+        font-size: 12rem;
+    }
+
+    //mainStyling
+    header {
+        .item1 {
+            order: 0;
+            width: 660px;
+            height: 360px;
+            left: 0;
+        }
+
+        .item2, .item3 {
+            width: 100%;
+        }
+    }
+
+    .aboutMe {
+        .overflow1 {
+            visibility: hidden;
+        }
+    }
+
+    .projects {
+        article {
+            flex-direction: column;
+        }
+        .imageContainer, .textContainer {
+            max-width: none;
+        }
+
+        .textContainer {
+            padding-left: 0;
+        }
+
+        .overflow1 {
+            display: none;
+        }
+    }
+
+    .contact {
+        
+    }
+}
