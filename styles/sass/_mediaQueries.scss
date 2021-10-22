@@ -25,41 +25,6 @@
             margin-top: 62px;
         }
     }
-}
-
-
-@media (max-width: 750px) {
-    //global
-    .wrapper, .innerWrapper {
-        width: 88%;
-        max-width: none;
-        margin: 0 auto;
-    }
-
-    h1, h2 {
-        font-size: 12rem;
-    }
-
-    //mainStyling
-    header {
-        margin-top: 301px;
-        .item1 {
-            width: calc(280px + 380 * ((100vw - 320px) / 430));
-            height: calc(153px + 207 * ((100vw - 320px) / 430));
-        }
-    }
-
-    main {
-        margin-top: -565px;
-    }
-
-    .aboutMe {
-        padding-top: 700px;
-        .overflow1 {
-            bottom: -56px;
-        }
-    }
-
     .projects {
         .projectDescription {
             margin-bottom: 89px;
@@ -93,6 +58,63 @@
 
         .overflow1 {
             display: none;
+        }
+    }
+}
+
+
+@media (max-width: 750px) {
+    //global
+    .wrapper, .innerWrapper {
+        width: 88%;
+        max-width: none;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: calc(7rem + 50 * ((100vw - 32rem) / 430));
+        line-height: calc(8rem + 70 * ((100vw - 32rem) / 430));
+
+    }
+
+    p {
+        font-size: calc(2rem + 5 * ((100vw - 32rem) / 430));
+    }
+
+    //mainStyling
+    header {
+        margin-top: 301px;
+        .item1 {
+            width: calc(280px + 380 * ((100vw - 320px) / 430));
+            height: calc(153px + 207 * ((100vw - 320px) / 430));
+        }
+        h1 {
+            font-size: calc(7rem + 56 * ((100vw - 32rem) / 430));
+        }
+        h2 {
+            font-size: calc(3rem + 10 * ((100vw - 32rem) / 430));
+        }
+    }
+
+    main {
+        margin-top: -565px;
+    }
+
+    .aboutMe {
+        padding-top: 700px;
+        .overflow1 {
+            bottom: -56px;
+        }
+    }
+    .projects {
+        h3 {
+            font-size: calc(7rem + 30 * ((100vw - 32rem) / 430));
+            line-height: calc(8rem + 50 * ((100vw - 32rem) / 430));
+        }
+    }
+    .contact {
+        h2 {
+            top: -40px;
         }
     }
 }
@@ -155,11 +177,6 @@
         }
         .textContainer p {
             margin-bottom: 25px;
-        }
-    }
-    .contact {
-        h2 {
-            top: -40px;
         }
     }
 }
