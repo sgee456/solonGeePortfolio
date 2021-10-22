@@ -188,7 +188,7 @@ main {
 }
 
 .contact {
-    padding-bottom: 108px;
+    padding-bottom: 55px;
     h2 {
         margin-left: -5px;
         position: relative;
@@ -222,6 +222,56 @@ main {
     }
     .fa-github {
         margin-right: 26px;
+    }
+
+    form {
+        margin: 0 auto;
+        max-width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nameInput, .emailInput {
+        width: calc(50% - 7px);
+    }
+    .nameInput {
+        margin-right: 7px;
+    }
+
+    .emailInput {
+        margin-left: 7px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    input, textarea {
+        padding: 7px 15px;
+        border: none;
+    }
+
+    textarea {
+        margin-top: 14px;
+        width: 100%;
+        height: 200px;
+        resize: none;
+    }
+
+    button[type="submit"] {
+        font-size: 2rem;
+        font-family: 'Rubik', sans-serif;
+        color: $lightBackground;
+        background-color: $orange;
+        margin: 14px auto 28px;
+        width: 200px;
+        border: none;
+        border-radius: 7px;
+        padding: 16px 0;
+        transition: background-color 0.3s;
+    }
+    button[type="submit"]:hover {
+        background-color: darken($orange, 10%);
     }
 }
 

@@ -141,6 +141,16 @@
         h2 {
             top: -40px;
         }
+
+        .nameInput, .emailInput {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .nameInput {
+            margin-bottom: 14px;
+        }
     }
 }
 
