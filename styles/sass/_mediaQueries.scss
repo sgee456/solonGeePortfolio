@@ -82,8 +82,67 @@
             display: none;
         }
     }
+}
 
+@media (max-width: 320px) {
+    p {
+        font-size: 2rem;
+    }
+
+    header {
+        margin-top: 110px;
+        h1 {
+            font-size: 7rem;
+            line-height: 8rem;
+        }
+        h2 {
+            font-size: 3rem;
+        }
+        .item1 {
+            width: 280px;
+            height: 153px;
+        }
+        .item3 {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    main {
+        margin-top: -565px;
+        h2 {
+            font-size: 7rem;
+            line-height: 8rem;
+        }
+    }
+    .aboutMe {
+        p {
+            padding: 35px 0 35px 23px;
+        }
+        .shapeContainer {
+            margin-top: -40px;
+        }
+    }
+    .projects {
+        h3 {
+            font-size: 7rem;
+            line-height: 8rem;
+        }
+        .projectDescription {
+            margin-left: 0;
+        }
+        .imageContainer {
+            margin-bottom: 50px;
+        }
+        article {
+            margin-bottom: 45px;
+        }
+        .textContainer p {
+            margin-bottom: 25px;
+        }
+    }
     .contact {
-        
+        h2 {
+            top: -40px;
+        }
     }
 }
