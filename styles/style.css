@@ -600,7 +600,10 @@ footer p {
   }
 
   header {
-    margin-top: 301px;
+    margin-top: calc(110px + 191 * ((100vw - 320px) / 430));
+  }
+  header .authorDescription {
+    max-width: 100%;
   }
   header .item1 {
     width: calc(280px + 380 * ((100vw - 320px) / 430));
@@ -612,6 +615,11 @@ footer p {
   header h2 {
     font-size: calc(3rem + 10 * ((100vw - 32rem) / 430));
   }
+  header .item3 {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
 
   main {
     margin-top: -565px;
@@ -620,6 +628,12 @@ footer p {
   .aboutMe {
     padding-top: 700px;
   }
+  .aboutMe p {
+    padding: 35px 0 35px 23px;
+  }
+  .aboutMe .shapeContainer {
+    margin-top: -40px;
+  }
   .aboutMe .overflow1 {
     bottom: -56px;
   }
@@ -627,6 +641,15 @@ footer p {
   .projects h3 {
     font-size: calc(7rem + 30 * ((100vw - 32rem) / 430));
     line-height: calc(8rem + 50 * ((100vw - 32rem) / 430));
+  }
+  .projects .imageContainer {
+    margin-bottom: calc(50px + 50 * ((100vw - 320px) / 430));
+  }
+  .projects article {
+    margin-bottom: calc(45px + 55 * ((100vw - 320px) / 430));
+  }
+  .projects .textContainer p {
+    margin-bottom: calc(25px + 24 * ((100vw - 320px) / 430));
   }
 
   .contact h2 {
@@ -641,9 +664,6 @@ footer p {
   header {
     margin-top: 110px;
   }
-  header .authorDescription {
-    max-width: 100%;
-  }
   header h1 {
     font-size: 7rem;
     line-height: 8rem;
@@ -655,25 +675,10 @@ footer p {
     width: 280px;
     height: 153px;
   }
-  header .item3 {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 100%;
-  }
 
-  main {
-    margin-top: -565px;
-  }
   main h2 {
     font-size: 7rem;
     line-height: 8rem;
-  }
-
-  .aboutMe p {
-    padding: 35px 0 35px 23px;
-  }
-  .aboutMe .shapeContainer {
-    margin-top: -40px;
   }
 
   .projects h3 {

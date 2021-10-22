@@ -84,7 +84,11 @@
 
     //mainStyling
     header {
-        margin-top: 301px;
+        margin-top: calc(110px + 191 * ((100vw - 320px) / 430));
+
+        .authorDescription {
+            max-width: 100%;
+        }
         .item1 {
             width: calc(280px + 380 * ((100vw - 320px) / 430));
             height: calc(153px + 207 * ((100vw - 320px) / 430));
@@ -95,6 +99,11 @@
         h2 {
             font-size: calc(3rem + 10 * ((100vw - 32rem) / 430));
         }
+        .item3 {
+            margin-left: 0;
+            margin-right: 0;
+            max-width: 100%;
+        }
     }
 
     main {
@@ -103,6 +112,12 @@
 
     .aboutMe {
         padding-top: 700px;
+        p {
+            padding: 35px 0 35px 23px;
+        }
+        .shapeContainer {
+            margin-top: -40px;
+        }
         .overflow1 {
             bottom: -56px;
         }
@@ -111,6 +126,15 @@
         h3 {
             font-size: calc(7rem + 30 * ((100vw - 32rem) / 430));
             line-height: calc(8rem + 50 * ((100vw - 32rem) / 430));
+        }
+        .imageContainer {
+            margin-bottom: calc(50px + 50 * ((100vw - 320px) / 430));
+        }
+        article {
+            margin-bottom: calc(45px + 55 * ((100vw - 320px) / 430));
+        }
+        .textContainer p {
+            margin-bottom: calc(25px + 24 * ((100vw - 320px) / 430));
         }
     }
     .contact {
@@ -127,9 +151,6 @@
 
     header {
         margin-top: 110px;
-        .authorDescription {
-            max-width: 100%;
-        }
         h1 {
             font-size: 7rem;
             line-height: 8rem;
@@ -141,25 +162,11 @@
             width: 280px;
             height: 153px;
         }
-        .item3 {
-            margin-left: 0;
-            margin-right: 0;
-            max-width: 100%;
-        }
     }
     main {
-        margin-top: -565px;
         h2 {
             font-size: 7rem;
             line-height: 8rem;
-        }
-    }
-    .aboutMe {
-        p {
-            padding: 35px 0 35px 23px;
-        }
-        .shapeContainer {
-            margin-top: -40px;
         }
     }
     .projects {
