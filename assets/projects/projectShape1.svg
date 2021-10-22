@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 380" width="310" height="380">
+	<title>// Graphic Elements //</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #55beda } 
+		.shp1 { fill: #172c70 } 
+		.shp2 { fill: #e4c4a8 } 
+	</style>
+	<g id="// Graphic Elements //">
+		<g id=":: Set 3 ::">
+			<path id="Shape" class="shp0" d="M0 380L0 70C0 31.34 31.34 0 70 0C108.66 0 140 31.34 140 70L140 380" />
+			<path id="Shape" class="shp1" d="M171 241L310 241L310 380L171 380L171 241Z" />
+			<path id="Shape" class="shp2" d="M240.5 81C278.88 81 310 112.12 310 150.5C310 188.88 278.88 220 240.5 220C202.12 220 171 188.88 171 150.5C171 112.12 202.12 81 240.5 81Z" />
+		</g>
+	</g>
+</svg>

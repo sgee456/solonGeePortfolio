@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 236" width="236" height="236">
+	<title>// Graphic Elements //</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #172c70 } 
+		.shp1 { fill: #55beda } 
+	</style>
+	<g id="// Graphic Elements //">
+		<g id=":: Set 1 ::">
+			<path id="Shape" class="shp0" d="M71.5 93C92.03 93 71.49 93 143 93C143 117.84 143 145.54 143 164.5C143 203.99 110.99 236 71.5 236C32.01 236 0 203.99 0 164.5C0 125.01 32.01 93 71.5 93Z" />
+			<path id="Shape" class="shp1" d="M164.5 143C143.97 143 164.51 143 93 143C93 118.16 93 90.46 93 71.5C93 32.01 125.01 0 164.5 0C203.99 0 236 32.01 236 71.5C236 110.99 203.99 143 164.5 143Z" />
+		</g>
+	</g>
+</svg>

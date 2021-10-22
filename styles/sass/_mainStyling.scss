@@ -102,6 +102,9 @@ header {
         position: relative;
         top: 95px;
         width: 20.7%;
+        p {
+            max-width: 300px;
+        }
     }
 }
 

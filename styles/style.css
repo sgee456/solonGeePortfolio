@@ -390,6 +390,9 @@ header .item3 {
   top: 95px;
   width: 20.7%;
 }
+header .item3 p {
+  max-width: 300px;
+}
 
 main {
   margin-top: -403px;
@@ -528,6 +531,31 @@ footer p {
   margin: 56px 0;
 }
 
+@media (max-width: 1820px) {
+  header .authorDescription {
+    max-width: 72%;
+    margin: 0 auto;
+  }
+  header .item1 {
+    left: 0;
+    top: 0;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    margin: 0 auto;
+  }
+  header .item2, header .item3 {
+    width: 100%;
+  }
+  header .item3 {
+    top: 59px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  header h2 {
+    margin-top: 62px;
+  }
+}
 @media (max-width: 750px) {
   .wrapper, .innerWrapper {
     width: 88%;
@@ -543,24 +571,8 @@ footer p {
     margin-top: 301px;
   }
   header .item1 {
-    -webkit-box-ordinal-group: 1;
-        -ms-flex-order: 0;
-            order: 0;
-    width: 660px;
-    height: 360px;
-    left: 0;
-    top: 0;
-  }
-  header .item2, header .item3 {
-    width: 100%;
-  }
-  header .item3 {
-    top: 59px;
-    margin-left: 30.3%;
-    margin-right: 22.12%;
-  }
-  header h2 {
-    margin-top: 62px;
+    width: calc(280px + 380 * ((100vw - 320px) / 430));
+    height: calc(153px + 207 * ((100vw - 320px) / 430));
   }
 
   main {
@@ -613,6 +625,9 @@ footer p {
   header {
     margin-top: 110px;
   }
+  header .authorDescription {
+    max-width: 100%;
+  }
   header h1 {
     font-size: 7rem;
     line-height: 8rem;
@@ -627,6 +642,7 @@ footer p {
   header .item3 {
     margin-left: 0;
     margin-right: 0;
+    max-width: 100%;
   }
 
   main {

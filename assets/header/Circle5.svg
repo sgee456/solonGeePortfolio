@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416 209" width="416" height="209">
+	<title>// Hero Header //</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #b9d1e4 } 
+	</style>
+	<g id="// Hero Header //">
+		<g id=":: Graphic Elements ::">
+			<path id="Circle" class="shp0" d="M0 209C0 94.25 93.38 0.75 208.16 0.75C322.95 0.75 416 94.25 416 209" />
+		</g>
+	</g>
+</svg>
