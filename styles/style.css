@@ -405,6 +405,19 @@ main {
   padding: 77px 0 77px 65px;
   border-left: 1px solid #1c2528;
 }
+.aboutMe a {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 16px 0;
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+}
+.aboutMe a:hover {
+  color: #f7f5f2;
+  background-color: #ff7f59;
+}
 .aboutMe .shapeContainer {
   margin-top: -100px;
   display: -webkit-box;
