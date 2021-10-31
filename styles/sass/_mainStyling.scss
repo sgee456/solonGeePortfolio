@@ -6,12 +6,15 @@ nav {
     ul {
         background-color: $black;
         position: absolute;
-        top: -46px;
         height: 100vh;
+        width: 100%;
         transition: height 0.4s, opacity 0.4s;
+        z-index: 70;
     }
     .hidden {
-        display: none;
+        visibility: hidden;
+    }
+    .closed {
         height: 0;
         opacity: 0;
     }

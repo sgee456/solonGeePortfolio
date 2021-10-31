@@ -307,13 +307,16 @@ nav .wrapper {
 nav ul {
   background-color: #1c2528;
   position: absolute;
-  top: -46px;
   height: 100vh;
+  width: 100%;
   -webkit-transition: height 0.4s, opacity 0.4s;
   transition: height 0.4s, opacity 0.4s;
+  z-index: 70;
 }
 nav .hidden {
-  display: none;
+  visibility: hidden;
+}
+nav .closed {
   height: 0;
   opacity: 0;
 }
