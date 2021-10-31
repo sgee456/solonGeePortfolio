@@ -14,8 +14,14 @@
 <body>
     <nav>
         <div class="wrapper">
-            <a href="#aboutMe" class="sr-only">Go to About Me</a>
-            <i id="hamburgerMenu" class="fas fa-bars"></i>
+            <a href="#aboutMe" class="sr-only">Skip to About Me</a>
+            <i id="openMenu" class="fas fa-bars"></i>
+            <ul id="hamburgerMenu" class="hidden">
+                <li><i id="closeMenu" class="fas fa-times"></i></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     </nav>
 
@@ -67,7 +73,7 @@
 
         <section class="projects">
             <div class="innerWrapper">
-                <h2>Projects</h2>
+                <h2 id="projects">Projects</h2>
                 
                 <article>
                     <div class="imageContainer">
@@ -122,7 +128,7 @@
 
         <section class="contact">
             <div class="innerWrapper">
-                <h2>Contact</h2>
+                <h2 id="contact">Contact</h2>
                 <form action="https://formspree.io/f/xdoyvwoa" method="POST">
                     <div class="nameInput">
                         <label for="name" class="sr-only">Your name: </label>

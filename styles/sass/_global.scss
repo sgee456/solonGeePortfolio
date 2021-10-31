@@ -11,6 +11,7 @@ $orange: #ff7f59;
 // font-family: 'Sorts Mill Goudy', serif;
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -72,4 +73,10 @@ a {
     text-decoration: none;
     color: $orange;
     text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }

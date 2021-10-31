@@ -1,6 +1,22 @@
 nav {
     height: 24px;
+    .wrapper {
+        position: relative;
+    }
+    ul {
+        background-color: $black;
+        position: absolute;
+        top: -46px;
+        height: 100vh;
+        transition: height 0.4s, opacity 0.4s;
+    }
+    .hidden {
+        display: none;
+        height: 0;
+        opacity: 0;
+    }
     i {
+        color: $orange;
         font-size: 5rem;
     }
 }

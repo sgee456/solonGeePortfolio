@@ -228,6 +228,7 @@ html {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -291,10 +292,33 @@ a {
   text-align: center;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   height: 24px;
 }
+nav .wrapper {
+  position: relative;
+}
+nav ul {
+  background-color: #1c2528;
+  position: absolute;
+  top: -46px;
+  height: 100vh;
+  -webkit-transition: height 0.4s, opacity 0.4s;
+  transition: height 0.4s, opacity 0.4s;
+}
+nav .hidden {
+  display: none;
+  height: 0;
+  opacity: 0;
+}
 nav i {
+  color: #ff7f59;
   font-size: 5rem;
 }
 
