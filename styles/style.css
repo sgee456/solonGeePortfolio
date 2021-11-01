@@ -235,7 +235,6 @@ body {
   background-color: #f7f5f2;
   color: #1c2528;
   font-family: "Sorts Mill Goudy", serif;
-  padding-top: 46px;
 }
 
 .wrapper {
@@ -300,18 +299,25 @@ ul {
 
 nav {
   height: 24px;
-}
-nav .wrapper {
+  padding-top: 46px;
   position: relative;
 }
 nav ul {
   background-color: #1c2528;
   position: absolute;
+  top: 0;
   height: 100vh;
   width: 100%;
   -webkit-transition: height 0.4s, opacity 0.4s;
   transition: height 0.4s, opacity 0.4s;
   z-index: 70;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 nav .hidden {
   visibility: hidden;
@@ -323,10 +329,31 @@ nav .closed {
 nav i {
   color: #ff7f59;
   font-size: 5rem;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+nav .fa-bars:hover {
+  color: #ff5826;
+}
+nav .fa-times {
+  padding: 20px;
+}
+nav .fa-times:hover {
+  color: #ffa68c;
+}
+nav a {
+  display: block;
+  width: 100%;
+  padding: 30px 0;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+nav a:hover {
+  background-color: #314146;
 }
 
 header {
-  margin-top: 220px;
+  margin-top: 266px;
 }
 header .flexContainer {
   display: -webkit-box;
