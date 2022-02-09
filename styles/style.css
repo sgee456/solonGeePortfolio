@@ -355,8 +355,8 @@ nav a:hover {
 @-webkit-keyframes shapeMovement {
   0% {
     opacity: 0;
-    -webkit-transform: rotate(0.25turn);
-            transform: rotate(0.25turn);
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
   }
   100% {
     opacity: 1;
@@ -368,13 +368,37 @@ nav a:hover {
 @keyframes shapeMovement {
   0% {
     opacity: 0;
-    -webkit-transform: rotate(0.25turn);
-            transform: rotate(0.25turn);
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
   }
   100% {
     opacity: 1;
     -webkit-transform: rotate(0);
             transform: rotate(0);
+  }
+}
+@-webkit-keyframes authorMovement {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes authorMovement {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 header {
@@ -424,6 +448,10 @@ header .authorContainer {
 }
 header .authorImage {
   position: relative;
+  -webkit-animation-name: authorMovement;
+          animation-name: authorMovement;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
   top: 50px;
   left: 12.5%;
   width: 75%;
@@ -432,8 +460,8 @@ header .circle {
   position: absolute;
   -webkit-animation-name: shapeMovement;
           animation-name: shapeMovement;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
 }
 header .circle1 {
   width: 24.52%;

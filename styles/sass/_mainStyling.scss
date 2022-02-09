@@ -48,11 +48,22 @@ nav {
 @keyframes shapeMovement {
     0% {
         opacity: 0;
-        transform: rotate(0.25turn);
+        transform: rotate(90deg);
     }
     100% {
         opacity: 1;
         transform: rotate(0);
+    }
+}
+
+@keyframes authorMovement {
+    0% {
+        opacity: 0;
+        transform: scale(0.75);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
     }
 }
 
@@ -101,6 +112,8 @@ header {
 
     .authorImage {
         position: relative;
+        animation-name: authorMovement;
+        animation-duration: 0.2s;
         top: 50px;
         left: 12.5%;
         width: 75%;
@@ -109,7 +122,7 @@ header {
     .circle {
         position: absolute;
         animation-name: shapeMovement;
-        animation-duration: 1s;
+        animation-duration: .8s;
     }
 
     .circle1 {
