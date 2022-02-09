@@ -352,6 +352,31 @@ nav a:hover {
   background-color: #314146;
 }
 
+@-webkit-keyframes shapeMovement {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotate(0.25turn);
+            transform: rotate(0.25turn);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+
+@keyframes shapeMovement {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotate(0.25turn);
+            transform: rotate(0.25turn);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
 header {
   margin-top: 266px;
 }
@@ -405,6 +430,10 @@ header .authorImage {
 }
 header .circle {
   position: absolute;
+  -webkit-animation-name: shapeMovement;
+          animation-name: shapeMovement;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 header .circle1 {
   width: 24.52%;

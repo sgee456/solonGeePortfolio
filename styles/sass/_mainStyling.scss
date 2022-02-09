@@ -45,6 +45,17 @@ nav {
     }
 }
 
+@keyframes shapeMovement {
+    0% {
+        opacity: 0;
+        transform: rotate(0.25turn);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0);
+    }
+}
+
 header {
     margin-top: 266px;
 
@@ -97,6 +108,8 @@ header {
 
     .circle {
         position: absolute;
+        animation-name: shapeMovement;
+        animation-duration: 1s;
     }
 
     .circle1 {
