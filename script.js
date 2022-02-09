@@ -22,6 +22,7 @@ app.init = function() {
             app.hamburgerMenu.classList.toggle('hidden');
         }, 400)
     });
+    AOS.init();
 };
 
 //document ready
